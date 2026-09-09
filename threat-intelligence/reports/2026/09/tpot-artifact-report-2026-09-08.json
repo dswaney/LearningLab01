@@ -1,61 +1,508 @@
 {
+  "wazuh": {
+    "source": "wazuh",
+    "summary": {
+      "severity": {
+        "low": 81452,
+        "high": 188,
+        "medium": 978,
+        "critical": 19,
+        "informational": 0
+      },
+      "total_alerts": 82637,
+      "geolocated_alerts": 4879,
+      "attack_related_alerts": 22309,
+      "honeypot_interactions": 78597,
+      "authentication_failures": 1005,
+      "authentication_successes": 405,
+      "country_coverage_percent": 5.9
+    },
+    "top_rules": [
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 34943
+          }
+        ],
+        "rule_id": "110213",
+        "alert_count": 34943,
+        "description": "T-Pot RDP connection from [IP address] to port 3389.",
+        "highest_level": 4
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 19079
+          }
+        ],
+        "rule_id": "110205",
+        "alert_count": 19079,
+        "description": "T-Pot Honeytrap received a payload from [IP address]",
+        "highest_level": 6
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 9098
+          }
+        ],
+        "rule_id": "110207",
+        "alert_count": 9098,
+        "description": "T-Pot SentryPeer SIP activity from [IP address]:63356, method INVITE",
+        "highest_level": 5
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 7698
+          }
+        ],
+        "rule_id": "110204",
+        "alert_count": 7698,
+        "description": "T-Pot Honeytrap connection from [IP address] to port 2222",
+        "highest_level": 4
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 4805
+          }
+        ],
+        "rule_id": "110219",
+        "alert_count": 4805,
+        "description": "T-Pot CiscoASA web activity from [IP address]: \"GET / HTTP/1.1\" 200 -",
+        "highest_level": 4
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 1786
+          }
+        ],
+        "rule_id": "110101",
+        "alert_count": 1786,
+        "description": "Cowrie SSH connection from [IP address].",
+        "highest_level": 3
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 1367
+          }
+        ],
+        "rule_id": "110223",
+        "alert_count": 1367,
+        "description": "T-Pot HoneyAML received GET request from [IP address] to /fetch on port 3000.",
+        "highest_level": 5
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 1005
+          }
+        ],
+        "rule_id": "110102",
+        "alert_count": 1005,
+        "description": "Cowrie failed login from [IP address] using username root.",
+        "highest_level": 5
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 533
+          }
+        ],
+        "rule_id": "110201",
+        "alert_count": 533,
+        "description": "T-Pot Dionaea pptpd connection from [IP address] to port 1723",
+        "highest_level": 4
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 308
+          }
+        ],
+        "rule_id": "110216",
+        "alert_count": 308,
+        "description": "T-Pot Mailoney received SMTP command from [IP address]: EHLO User\r",
+        "highest_level": 4
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 240
+          },
+          {
+            "name": "wazuh",
+            "alerts": 1
+          }
+        ],
+        "rule_id": "533",
+        "alert_count": 241,
+        "description": "Listened ports status (netstat) changed (new port opened or closed).",
+        "highest_level": 7
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 203
+          },
+          {
+            "name": "wazuh",
+            "alerts": 31
+          }
+        ],
+        "rule_id": "5501",
+        "alert_count": 234,
+        "description": "PAM: Login session opened.",
+        "highest_level": 3
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 184
+          },
+          {
+            "name": "wazuh",
+            "alerts": 29
+          }
+        ],
+        "rule_id": "5502",
+        "alert_count": 213,
+        "description": "PAM: Login session closed.",
+        "highest_level": 3
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 190
+          }
+        ],
+        "rule_id": "110104",
+        "alert_count": 190,
+        "description": "Cowrie captured a command from [IP address]: config terminal",
+        "highest_level": 7
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 157
+          }
+        ],
+        "rule_id": "110209",
+        "alert_count": 157,
+        "description": "T-Pot Conpot snmp event from [IP address]: SNMPv2 Bulk",
+        "highest_level": 5
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 132
+          }
+        ],
+        "rule_id": "110217",
+        "alert_count": 132,
+        "description": "T-Pot Mailoney captured suspicious SMTP activity from [IP address]: AUTH LOGIN\r",
+        "highest_level": 7
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 121
+          }
+        ],
+        "rule_id": "110221",
+        "alert_count": 121,
+        "description": "T-Pot CiscoASA detected configuration discovery from [IP address]: \"GET /SETTINGS.CFG HTTP/1.1\" 404 -",
+        "highest_level": 7
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 107
+          },
+          {
+            "name": "wazuh",
+            "alerts": 2
+          }
+        ],
+        "rule_id": "5715",
+        "alert_count": 109,
+        "description": "sshd: authentication success.",
+        "highest_level": 3
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 86
+          }
+        ],
+        "rule_id": "110214",
+        "alert_count": 86,
+        "description": "T-Pot RDP honeypot detected a connection burst from [IP address].",
+        "highest_level": 9
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 71
+          }
+        ],
+        "rule_id": "110215",
+        "alert_count": 71,
+        "description": "T-Pot MiniPrint event: connection, action open_conn, Connection opened",
+        "highest_level": 4
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 70
+          }
+        ],
+        "rule_id": "110220",
+        "alert_count": 70,
+        "description": "T-Pot CiscoASA captured a login request from [IP address]: \"POST /login.cgi HTTP/1.1\" 200 -",
+        "highest_level": 8
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 62
+          }
+        ],
+        "rule_id": "110103",
+        "alert_count": 62,
+        "description": "Cowrie accepted login from [IP address] using username root.",
+        "highest_level": 10
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 58
+          }
+        ],
+        "rule_id": "110212",
+        "alert_count": 58,
+        "description": "T-Pot Honeytrap detected repeated payload activity from [IP address].",
+        "highest_level": 10
+      },
+      {
+        "agents": [
+          {
+            "name": "wazuh",
+            "alerts": 40
+          },
+          {
+            "name": "tpot",
+            "alerts": 1
+          }
+        ],
+        "rule_id": "510",
+        "alert_count": 41,
+        "description": "Host-based anomaly detection event (rootcheck).",
+        "highest_level": 7
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 31
+          }
+        ],
+        "rule_id": "110106",
+        "alert_count": 31,
+        "description": "Cowrie detected repeated failed logins from [IP address].",
+        "highest_level": 10
+      }
+    ],
+    "window_end": "2026-09-09T01:36:51Z",
+    "report_date": "2026-09-08",
+    "generated_at": "2026-09-09T01:36:51Z",
+    "window_start": "2026-09-08T01:36:51Z",
+    "mitre_tactics": [
+      {
+        "alerts": 373,
+        "tactic": "Defense Evasion"
+      },
+      {
+        "alerts": 372,
+        "tactic": "Privilege Escalation"
+      },
+      {
+        "alerts": 359,
+        "tactic": "Initial Access"
+      },
+      {
+        "alerts": 344,
+        "tactic": "Persistence"
+      },
+      {
+        "alerts": 109,
+        "tactic": "Lateral Movement"
+      },
+      {
+        "alerts": 38,
+        "tactic": "Execution"
+      },
+      {
+        "alerts": 31,
+        "tactic": "Credential Access"
+      },
+      {
+        "alerts": 27,
+        "tactic": "Command and Control"
+      },
+      {
+        "alerts": 12,
+        "tactic": "Impact"
+      }
+    ],
+    "top_countries": [
+      {
+        "alerts": 77758,
+        "country": "Unknown"
+      },
+      {
+        "alerts": 2452,
+        "country": "New Zealand"
+      },
+      {
+        "alerts": 2162,
+        "country": "United States"
+      },
+      {
+        "alerts": 191,
+        "country": "United Kingdom"
+      },
+      {
+        "alerts": 18,
+        "country": "Turkey"
+      },
+      {
+        "alerts": 17,
+        "country": "Germany"
+      },
+      {
+        "alerts": 11,
+        "country": "China"
+      },
+      {
+        "alerts": 7,
+        "country": "Canada"
+      },
+      {
+        "alerts": 6,
+        "country": "Hungary"
+      },
+      {
+        "alerts": 6,
+        "country": "Romania"
+      },
+      {
+        "alerts": 3,
+        "country": "Iran"
+      },
+      {
+        "alerts": 3,
+        "country": "Singapore"
+      },
+      {
+        "alerts": 2,
+        "country": "South Africa"
+      },
+      {
+        "alerts": 1,
+        "country": "Ukraine"
+      }
+    ],
+    "mitre_techniques": [
+      {
+        "alerts": 343,
+        "technique": "Valid Accounts"
+      },
+      {
+        "alerts": 109,
+        "technique": "Remote Services"
+      },
+      {
+        "alerts": 38,
+        "technique": "Command and Scripting Interpreter"
+      },
+      {
+        "alerts": 31,
+        "technique": "Brute Force"
+      },
+      {
+        "alerts": 29,
+        "technique": "Sudo and Sudo Caching"
+      },
+      {
+        "alerts": 27,
+        "technique": "Ingress Tool Transfer"
+      },
+      {
+        "alerts": 16,
+        "technique": "Exploit Public-Facing Application"
+      },
+      {
+        "alerts": 12,
+        "technique": "Stored Data Manipulation"
+      },
+      {
+        "alerts": 1,
+        "technique": "Create Account"
+      },
+      {
+        "alerts": 1,
+        "technique": "Disable or Modify Tools"
+      }
+    ],
+    "attack_categories": {
+      "malware": 51,
+      "web_attack": 1390,
+      "smtp_attack": 132,
+      "network_scan": 93,
+      "network_attack": 19137,
+      "reconnaissance": 370,
+      "payload_delivery": 19137,
+      "command_execution": 226,
+      "authentication_failure": 1005
+    },
+    "export_schema_version": 1
+  },
   "summary": {
-    "known_count": 4,
-    "artifact_count": 4,
+    "known_count": 2,
+    "artifact_count": 2,
     "uploaded_count": 0,
-    "malicious_count": 2,
+    "malicious_count": 0,
     "suspicious_count": 0,
     "lookup_error_count": 0
   },
   "artifacts": [
-    {
-      "md5": "0fa41de75420479c9120641df3b4f317",
-      "sha1": "cbe89930c606fafad01189ce3dacc5228115bd4a",
-      "sha256": "94f2e4d8d4436874785cd14e6e6d403507b8750852f7f2040352069a75da4c00",
-      "vt_error": null,
-      "vt_found": true,
-      "file_type": null,
-      "last_seen": "2026-09-07T15:47:22.737441+00:00",
-      "mime_type": null,
-      "first_seen": "2026-09-07T15:47:22.737441+00:00",
-      "size_bytes": 30304472,
-      "artifact_id": "10a066a3-d18e-41d5-8344-b7dd64c30d3d",
-      "vt_harmless": 0,
-      "vt_file_type": "ELF",
-      "vt_malicious": 46,
-      "vt_reputation": -85,
-      "vt_suspicious": 0,
-      "vt_undetected": 17,
-      "capture_status": "known",
-      "vt_completed_at": "2026-09-08T13:01:35.874+00:00",
-      "vt_threat_label": "miner.multiverze/genericrxss",
-      "vt_meaningful_name": "20260903-015900_sftp__root__8074228092978951422_sshd",
-      "vt_response_status": 200
-    },
-    {
-      "md5": "cdf9b2a6ae56d7b546ba226a27707825",
-      "sha1": "d4653188c53f6e4ec7efd8433cd8c5ce24304797",
-      "sha256": "fe8f256117e2a3498b8b8768663afe7b937b7f39324e249d243fca78709c17ac",
-      "vt_error": null,
-      "vt_found": true,
-      "file_type": null,
-      "last_seen": "2026-09-07T16:32:23.96708+00:00",
-      "mime_type": null,
-      "first_seen": "2026-09-07T16:32:23.96708+00:00",
-      "size_bytes": 23658496,
-      "artifact_id": "d06eac8f-6e06-4181-a393-ea9e2a674c69",
-      "vt_harmless": 0,
-      "vt_file_type": "ELF",
-      "vt_malicious": 34,
-      "vt_reputation": 0,
-      "vt_suspicious": 0,
-      "vt_undetected": 24,
-      "capture_status": "known",
-      "vt_completed_at": "2026-09-08T13:01:35.874+00:00",
-      "vt_threat_label": "miner.r002c0dei26/abminer",
-      "vt_meaningful_name": null,
-      "vt_response_status": 200
-    },
     {
       "md5": "4bf0d7ff6ac41964672addf2d4646c53",
       "sha1": "1abe00741caa36f397dcad3a2284bdb7db347c16",
@@ -105,9 +552,13 @@
       "vt_response_status": 200
     }
   ],
-  "window_end": "2026-09-08T13:15:05.031Z",
+  "window_end": "2026-09-09T02:31:24.671Z",
   "report_date": "2026-09-08",
-  "generated_at": "2026-09-08T13:15:05.042Z",
-  "window_start": "2026-09-07T13:15:05.031Z",
-  "report_schema_version": 1
+  "generated_at": "2026-09-09T02:31:24.695Z",
+  "window_start": "2026-09-08T02:31:24.671Z",
+  "security_onion": {
+    "status": "planned",
+    "integrated": false
+  },
+  "report_schema_version": 2
 }
