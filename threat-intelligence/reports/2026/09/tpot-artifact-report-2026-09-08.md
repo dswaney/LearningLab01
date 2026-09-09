@@ -1,8 +1,8 @@
 # LearningLab01 Daily Threat Intelligence Report — 2026-09-08
 
-Generated: 2026-09-09T02:25:06.837Z
+Generated: 2026-09-09T02:31:24.695Z
 
-Report window: 2026-09-08T02:25:06.813Z through 2026-09-09T02:25:06.813Z
+Report window: 2026-09-08T02:31:24.671Z through 2026-09-09T02:31:24.671Z
 
 > This report summarizes security telemetry and honeypot activity. An alert indicates that a rule matched observed activity; it does not automatically prove that a system was compromised.
 
@@ -70,37 +70,24 @@ A successful authentication is not considered an attack by itself. Analysts shou
 
 Wazuh supplied country information for 4,879 alerts, representing 5.90% of all alerts.
 
-```mermaid
-pie showData
-    title Wazuh Geolocated Alerts by Country
-    "New Zealand" : 2452
-    "United States" : 2162
-    "United Kingdom" : 191
-    "Turkey" : 18
-    "Germany" : 17
-    "China" : 11
-    "Canada" : 7
-    "Hungary" : 6
-    "Romania" : 6
-    "Iran" : 3
-```
+| Country | Alerts | Percentage of all alerts | Relative volume |
+|---|---:|---:|---|
+| Unknown | 77,758 | 94.10% | Not geolocated |
+| New Zealand | 2,452 | 2.97% | ████████████████████ |
+| United States | 2,162 | 2.62% | ██████████████████ |
+| United Kingdom | 191 | 0.23% | ██ |
+| Turkey | 18 | 0.02% | █ |
+| Germany | 17 | 0.02% | █ |
+| China | 11 | 0.01% | █ |
+| Canada | 7 | 0.01% | █ |
+| Hungary | 6 | 0.01% | █ |
+| Romania | 6 | 0.01% | █ |
+| Iran | 3 | 0.00% | █ |
+| Singapore | 3 | 0.00% | █ |
+| South Africa | 2 | 0.00% | █ |
+| Ukraine | 1 | 0.00% | █ |
 
-| Country | Alerts | Percentage of all alerts |
-|---|---:|---:|
-| Unknown | 77,758 | 94.10% |
-| New Zealand | 2,452 | 2.97% |
-| United States | 2,162 | 2.62% |
-| United Kingdom | 191 | 0.23% |
-| Turkey | 18 | 0.02% |
-| Germany | 17 | 0.02% |
-| China | 11 | 0.01% |
-| Canada | 7 | 0.01% |
-| Hungary | 6 | 0.01% |
-| Romania | 6 | 0.01% |
-| Iran | 3 | 0.00% |
-| Singapore | 3 | 0.00% |
-| South Africa | 2 | 0.00% |
-| Ukraine | 1 | 0.00% |
+> Relative-volume bars compare only countries with known geographic attribution. Unknown alerts are excluded from the bar scale.
 
 > Geolocation is approximate. VPNs, proxies, cloud providers, compromised hosts, carrier networks, and incomplete GeoIP coverage can make the apparent country different from the attacker’s location.
 
