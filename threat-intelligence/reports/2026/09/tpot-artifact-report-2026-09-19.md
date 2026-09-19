@@ -1,6 +1,6 @@
 # LearningLab01 Daily Threat Intelligence Report â€” 2026-09-19
 
-Generated: 2026-09-19T16:12:50.365Z
+Generated: 2026-09-19T16:12:54.565Z
 
 Report window: 2026-09-18T16:12:50.314Z through 2026-09-19T16:12:50.314Z
 
@@ -17,7 +17,7 @@ Report window: 2026-09-18T16:12:50.314Z through 2026-09-19T16:12:50.314Z
 | Authentication successes | 338 |
 | Critical alerts | 13 |
 | High alerts | 155 |
-| New Wazuh rule detections | 2 |
+| New Wazuh rule detections | 0 |
 | T-Pot artifacts observed | 0 |
 | Malicious artifact detections | 0 |
 
@@ -27,7 +27,6 @@ Report window: 2026-09-18T16:12:50.314Z through 2026-09-19T16:12:50.314Z
 - 155 high-severity alerts should be reviewed after the critical queue.
 - Authentication failures exceeded successful authentications by a ratio of 7.43:1.
 - Country attribution currently covers only 1.65% of alerts. Country totals should be treated as partial telemetry.
-- 2 Wazuh rule IDs were not present in the stored historical baseline and require review.
 - The most frequent rule was 110213: T-Pot RDP connection from [IP address] to port 3389. (99,243 alerts).
 
 ## Wazuh Security Monitoring
@@ -159,38 +158,9 @@ The table shows the 25 most frequent rules from 44 distinct rule IDs evaluated f
 
 ### New or Previously Unseen Detections
 
-2 previously unseen Wazuh rule detections were identified.
-The comparison used stored observations beginning 2026-09-08 through 2026-09-08.
-A new detection means the Wazuh rule ID was absent from earlier stored daily reports; it does not by itself prove a new threat or compromise.
+Historical comparison information was unavailable for this report.
 
-| Rule ID | Highest Level | Severity | Alerts | Description | Agents |
-|---|---:|---|---:|---|---|
-| 23502 | 3 | Low | 16 | The CVE-2026-15534 that affected libperl5.38t64 was solved due to an update in the agent or feed. | tpot (16) |
-| 502 | 3 | Low | 1 | Wazuh server started. | wazuh (1) |
-
-#### Investigation Guidance for New Detections
-
-#### Rule 23502 â€” Low
-
-- Description: The CVE-2026-15534 that affected libperl5.38t64 was solved due to an update in the agent or feed.
-- Alerts in this window: 16
-- Highest Wazuh level: 3
-- First observed by this reporting baseline: 2026-09-19
-- Prior observation days: 0
-- Why it is marked new: This rule ID was not present in any stored report before the current report date.
-- Suggested analyst review:
-  - Review the raw event, affected agent, source, target, and neighboring alerts before deciding whether escalation is required.
-
-#### Rule 502 â€” Low
-
-- Description: Wazuh server started.
-- Alerts in this window: 1
-- Highest Wazuh level: 3
-- First observed by this reporting baseline: 2026-09-19
-- Prior observation days: 0
-- Why it is marked new: This rule ID was not present in any stored report before the current report date.
-- Suggested analyst review:
-  - Review the raw event, affected agent, source, target, and neighboring alerts before deciding whether escalation is required.
+_No rules are classified as newly detected for this report._
 
 > Historical novelty is based on stored daily rule IDs. A rule can be new to this reporting baseline without being a newly created Wazuh rule or a newly discovered attack technique.
 
